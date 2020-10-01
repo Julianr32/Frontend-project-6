@@ -1,5 +1,6 @@
 /* ====GOOGLE FONTS==== */
 @import url("https://fonts.googleapis.com/css2?family=Spartan:wght@500;600;700&display=swap");
+
 /* ====RESET=== */
 *,
 ::before,
@@ -225,48 +226,60 @@ img {
 }
 
 /* ====END-GLOBAL-STYLES==== */
+
 /* ====MEDIA QUERIES==== */
 @media (min-width: 900px) {
   .main {
     height: 100vh;
     overflow: hidden;
   }
+
   .header {
     width: 40%;
     padding: 0 4rem;
   }
+
   .header__toggle {
     display: none;
   }
+
   .nav {
     position: unset;
     background-color: transparent;
     opacity: 1;
   }
+
   .nav__toggle {
     display: none;
   }
+
   .nav__link {
     color: white;
     font-size: 1.6rem;
   }
+
   .slider {
     height: 65%;
   }
+
   .slider .slide {
     height: 100%;
     display: flex;
   }
+
   .slider .slide .slide__img {
     width: 100%;
     height: 100%;
   }
+
   .slider .slide .slide__img img {
     height: 100%;
   }
+
   .slider .slide .slide__img .slide__btn button {
     padding: 2rem 2.5rem;
   }
+
   .slider .slide__content {
     width: 70%;
     padding: 0 8rem;
@@ -275,16 +288,20 @@ img {
     align-items: center;
     justify-content: center;
   }
+
   .slider .slide__content a {
     width: 100%;
   }
+
   .about {
     height: 35%;
     display: flex;
     align-items: center;
   }
+
   .about .about-img {
     height: 100%;
   }
 }
+
 /*# sourceMappingURL=main.css.map */
